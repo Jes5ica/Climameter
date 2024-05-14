@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/feedback.css">
+</head>
+<body>
+  <div class="center">
+   
+  </div>
+  <div class="pop-up">
+    <!-- <div class="close-btn"></div> -->
+    <form action="https://formspree.io/f/xyyrlngp" method="post">
+      <div class="form">
+        <h2 class="h2">Please, leave a feedback</h2>
+        <div class="form-element">
+          <label for="email">Name</label>
+          <input type="text" id="name" name="name" placeholder="enter name">
+        </div>
+        <div class="form-element">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="enter email">
+        </div>
+        <div class="form-element">
+          <!-- <label for="feedback">Feedback</label> -->
+          <textarea name="comment" id="feedback" cols="30" rows="10" placeholder="leave a feedback"></textarea>
+        </div>
+        <div class="form-element">
+          <a href="index.html">
+            <button type="submit">Submit</button>
+          </a>
+        </div>
+      </div>
+    </form>
+  </div>
+  <script src="./assets/css/feedback.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+  </script>
+</body>
+</html>
